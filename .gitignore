@@ -1,0 +1,30 @@
+# GHDL Simulation & Build Artifacts
+build/
+work/
+*.cf
+work-obj*.cf
+*.o
+*.ghw
+*.vcd
+*.fst
+
+# Python / Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor & OS Metadata
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Obsidian
+.obsidian/
+
+# Antigravity / Teamwork Internal Artifacts
+.agents/
